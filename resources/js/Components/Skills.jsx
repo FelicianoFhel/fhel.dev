@@ -9,7 +9,7 @@ function Skills() {
     const tech = [
         { label: 'Frameworks', items: ['Laravel'] },
         { label: 'Libraries', items: ['React', 'jQuery'] },
-        { label: 'CSS / UI Toolkit', items: ['Bootstrap'] },
+        { label: 'CSS / UI', items: ['Bootstrap'] },
         { label: 'Languages', items: ['PHP', 'JavaScript', 'HTML5', 'CSS3'] },
         { label: 'Databases', items: ['MySQL', 'Supabase'] },
         {
