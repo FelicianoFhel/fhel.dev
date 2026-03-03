@@ -117,10 +117,7 @@
 }
 
 .portfolio-nav__links a:hover {
-    background: var(--gradient-accent);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--color-accent);
 }
 
 .portfolio-nav__theme-toggle {
@@ -300,10 +297,7 @@
     font-size: 1.75rem;
     font-weight: 700;
     margin: 0 0 1rem;
-    background: var(--gradient-accent);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--color-text);
 }
 
 .portfolio-section__lead {
@@ -364,10 +358,7 @@
 }
 
 .portfolio-intro__title {
-    background: var(--gradient-accent);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--color-accent);
     font-size: 1rem;
     font-weight: 500;
     margin: 0 0 0.2rem;
@@ -817,7 +808,7 @@
 }
 
 .portfolio-chat__msg--user .portfolio-chat__bubble {
-    background: var(--gradient-accent);
+    background: var(--color-accent);
     color: #fff;
     border-radius: 1rem 1rem 0.25rem 1rem;
 }
@@ -877,7 +868,7 @@
 
 .portfolio-chat__send {
     padding: 0.6rem 1rem;
-    background: var(--gradient-accent);
+    background: var(--color-accent);
     color: #fff;
     border: none;
     border-radius: 0.5rem;

@@ -5,9 +5,9 @@ const THEME_KEY = 'portfolio-theme';
 function Nav() {
     const [theme, setTheme] = useState(() => {
         if (typeof window !== 'undefined') {
-            return window.localStorage.getItem(THEME_KEY) || 'dark';
+            return window.localStorage.getItem(THEME_KEY) || 'light';
         }
-        return 'dark';
+        return 'light';
     });
     const [menuOpen, setMenuOpen] = useState(false);
 
