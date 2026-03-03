@@ -10,6 +10,13 @@ function Skills() {
         { label: 'Frameworks', items: ['Laravel', 'Bootstrap', 'jQuery', 'React'] },
         { label: 'Languages', items: ['PHP', 'JavaScript', 'HTML5', 'CSS3'] },
         { label: 'Databases', items: ['MySQL', 'Supabase'] },
+        {
+            label: 'Network Specialist',
+            items: [
+                'Troubleshoot and install network infrastructure',
+                'Network maintenance, multiple WAN setup + AP',
+            ],
+        },
         { label: 'Tools', items: ['cPanel', 'DNS Zone Editor', 'SSL Installation', 'FTP / File Manager'] },
     ];
 
