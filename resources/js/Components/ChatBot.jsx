@@ -40,7 +40,7 @@ function ChatBot() {
             setMessages((prev) => [...prev, { role: 'assistant', content: typeof reply === 'string' ? reply : 'No response.' }]);
         } catch (err) {
             const raw = err.response?.data?.error ?? err.response?.data?.message ?? err.message;
-            const message = typeof raw === 'string' ? raw : 'Failed to send. Please try again.';
+            const message = typeof raw === 'string' ? raw : 'Fhels AI is currently offline due to vercel restriction no backend or API call     -fhel';
             setMessages((prev) => [...prev, { role: 'assistant', content: message }]);
         } finally {
             setLoading(false);
