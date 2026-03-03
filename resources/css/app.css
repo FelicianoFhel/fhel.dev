@@ -7,11 +7,12 @@
     --color-bg: #0c1222;
     --color-surface: #131c2e;
     --color-surface-alt: #1a2744;
-    --color-accent: #22d3ee;
-    --color-accent-dim: #0891b2;
+    --gradient-accent: linear-gradient(90deg, #4f46e5 0%, #c026d3 50%, #ea580c 100%);
+    --color-accent: #c026d3;
+    --color-accent-dim: #a21caf;
     --color-text: #f1f5f9;
     --color-muted: #94a3b8;
-    --color-border: rgba(34, 211, 238, 0.15);
+    --color-border: rgba(192, 38, 211, 0.2);
     --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
     --max-width: 72rem;
     --section-padding: 4rem 1.5rem;
@@ -116,7 +117,10 @@
 }
 
 .portfolio-nav__links a:hover {
-    color: var(--color-accent);
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .portfolio-nav__theme-toggle {
@@ -132,7 +136,7 @@
 }
 
 .portfolio-nav__theme-toggle:hover {
-    border-color: rgba(34, 211, 238, 0.4);
+    border-color: rgba(192, 38, 211, 0.5);
 }
 
 .portfolio-nav__theme-toggle--light {
@@ -183,7 +187,7 @@
 }
 .portfolio-nav__hamburger:hover {
     border-color: var(--color-accent);
-    background: rgba(34, 211, 238, 0.08);
+    background: rgba(192, 38, 211, 0.12);
 }
 .portfolio-nav__hamburger-bar {
     display: block;
@@ -296,7 +300,10 @@
     font-size: 1.75rem;
     font-weight: 700;
     margin: 0 0 1rem;
-    color: var(--color-text);
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .portfolio-section__lead {
@@ -357,7 +364,10 @@
 }
 
 .portfolio-intro__title {
-    color: var(--color-accent);
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 1rem;
     font-weight: 500;
     margin: 0 0 0.2rem;
@@ -807,8 +817,8 @@
 }
 
 .portfolio-chat__msg--user .portfolio-chat__bubble {
-    background: var(--color-accent);
-    color: var(--color-bg);
+    background: var(--gradient-accent);
+    color: #fff;
     border-radius: 1rem 1rem 0.25rem 1rem;
 }
 
@@ -867,8 +877,8 @@
 
 .portfolio-chat__send {
     padding: 0.6rem 1rem;
-    background: var(--color-accent);
-    color: var(--color-bg);
+    background: var(--gradient-accent);
+    color: #fff;
     border: none;
     border-radius: 0.5rem;
     font-weight: 600;

@@ -29,7 +29,7 @@ const html = `<!DOCTYPE html>
         html { scroll-behavior: smooth; }
         body { margin: 0; -webkit-font-smoothing: antialiased; }
         .fixed.top-0.right-0 a { color: #94a3b8; text-decoration: none; font-weight: 600; }
-        .fixed.top-0.right-0 a:hover { color: #22d3ee; }
+        .fixed.top-0.right-0 a:hover { color: #c026d3; }
         .fixed.top-0.right-0 .ml-4 { margin-left: 1rem; }
         </style>
     </head>
