@@ -27,11 +27,20 @@ function ChatBot() {
         setMessages((prev) => [...prev, { role: 'user', content: text }]);
         setLoading(true);
 
+        const noApi = !CHAT_API || CHAT_API === '';
+        if (noApi) {
+            setMessages((prev) => [...prev, { role: 'assistant', content: "Chat isn't available on this deployment. It works when the site is run with the full Laravel backend." }]);
+            setLoading(false);
+            return;
+        }
+
         try {
             const { data } = await window.axios.post(CHAT_API, { message: text });
-            setMessages((prev) => [...prev, { role: 'assistant', content: data.content || 'No response.' }]);
+            const reply = data?.content;
+            setMessages((prev) => [...prev, { role: 'assistant', content: typeof reply === 'string' ? reply : 'No response.' }]);
         } catch (err) {
-            const message = err.response?.data?.error || 'Failed to send. Please try again.';
+            const raw = err.response?.data?.error ?? err.response?.data?.message ?? err.message;
+            const message = typeof raw === 'string' ? raw : 'Failed to send. Please try again.';
             setMessages((prev) => [...prev, { role: 'assistant', content: message }]);
         } finally {
             setLoading(false);
