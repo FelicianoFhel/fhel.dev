@@ -11,4 +11,14 @@ if (container) {
             <App />
         </React.StrictMode>
     );
+
+    const loader = document.getElementById('app-loader');
+    if (loader) {
+        window.requestAnimationFrame(() => {
+            window.setTimeout(() => {
+                loader.classList.add('portfolio-loader--hidden');
+                window.setTimeout(() => loader.remove(), 500);
+            }, 550);
+        });
+    }
 }

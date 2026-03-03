@@ -24,6 +24,17 @@
         </style>
     </head>
     <body class="antialiased">
+        <div id="app-loader" class="portfolio-loader" aria-hidden="true">
+            <div class="portfolio-loader__inner">
+                <div class="portfolio-loader__logo">
+                    <span class="portfolio-loader__logo-fhel">Fhel.</span><span class="portfolio-loader__logo-dev">dev</span>
+                </div>
+                <div class="portfolio-loader__bar">
+                    <span class="portfolio-loader__bar-fill"></span>
+                </div>
+            </div>
+        </div>
+
         @if (Route::has('login'))
             <div class="fixed top-0 right-0 p-6 text-right z-10">
                 @auth

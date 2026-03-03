@@ -34,6 +34,16 @@ const html = `<!DOCTYPE html>
         </style>
     </head>
     <body class="antialiased">
+        <div id="app-loader" class="portfolio-loader" aria-hidden="true">
+            <div class="portfolio-loader__inner">
+                <div class="portfolio-loader__logo">
+                    <span class="portfolio-loader__logo-fhel">Fhel.</span><span class="portfolio-loader__logo-dev">dev</span>
+                </div>
+                <div class="portfolio-loader__bar">
+                    <span class="portfolio-loader__bar-fill"></span>
+                </div>
+            </div>
+        </div>
         <script>window.PORTFOLIO_CHAT_URL = "";</script>
         <div id="root"></div>
         ${jsSrc ? `<script type="module" src="${jsSrc}"><\/script>` : ''}
