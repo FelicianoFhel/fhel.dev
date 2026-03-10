@@ -332,10 +332,6 @@
     bottom: 30%;
     transform: translateX(-50%);
     z-index: 2;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.75rem;
 }
 
 .portfolio-hero__cta {
@@ -391,15 +387,6 @@
 .portfolio-cta:hover {
     opacity: 0.95;
     transform: translateY(-1px);
-}
-
-.portfolio-cta--outline {
-    background: transparent;
-    color: var(--color-text);
-    box-shadow: 0 0 0 2px currentColor;
-}
-.portfolio-cta--outline:hover {
-    opacity: 0.9;
 }
 
 @media (max-width: 480px) {
@@ -676,46 +663,7 @@
 
 .portfolio-languages p {
     color: var(--color-muted);
-    margin: 1;
-}
-
-/* ----- Credentials (Education documents) ----- */
-.portfolio-credentials {
-    margin-bottom: 2rem;
-}
-.portfolio-credentials:last-child {
-    margin-bottom: 0;
-}
-.portfolio-credentials h3 {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin: 0 0 0.25rem;
-}
-.portfolio-credentials__lead {
-    color: var(--color-muted);
-    font-size: 0.95rem;
-    margin: 0 0 0.75rem;
-}
-.portfolio-credentials__links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-.portfolio-credentials__link {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background: var(--color-surface);
-    color: var(--color-accent);
-    font-weight: 500;
-    font-size: 0.95rem;
-    text-decoration: none;
-    border-radius: 9999px;
-    border: 1px solid var(--color-border, rgba(0, 0, 0, 0.1));
-    transition: opacity 0.2s, transform 0.15s;
-}
-.portfolio-credentials__link:hover {
-    opacity: 0.9;
-    transform: translateY(-1px);
+    margin: 0;
 }
 
 /* ----- Contact ----- */

@@ -12,17 +12,8 @@ function Hero() {
             </div>
             <div className="portfolio-hero__cta-wrap">
                 <a
-                    href="/documents/resume.pdf"
-                    className="portfolio-cta portfolio-hero__cta"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    download
-                >
-                    Download CV
-                </a>
-                <a
                     href="#contact"
-                    className="portfolio-cta portfolio-cta--outline portfolio-hero__cta"
+                    className="portfolio-cta portfolio-hero__cta"
                     onClick={(e) => {
                         e.preventDefault();
                         document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
