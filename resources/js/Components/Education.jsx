@@ -24,6 +24,30 @@ function Education() {
                         <li>Top 1 Employee 2024</li>
                     </ul>
                 </div>
+                <div className="portfolio-credentials">
+                    <h3>Credentials & documents</h3>
+                    <p className="portfolio-credentials__lead">Resume and academic records (PDF):</p>
+                    <div className="portfolio-credentials__links">
+                        <a
+                            href="/documents/resume.pdf"
+                            className="portfolio-credentials__link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            download
+                        >
+                            Resume (CV)
+                        </a>
+                        <a
+                            href="/documents/diploma-tor.pdf"
+                            className="portfolio-credentials__link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            download
+                        >
+                            Diploma & TOR
+                        </a>
+                    </div>
+                </div>
                 <div className="portfolio-languages">
                     <h3>Languages</h3>
                     <p>English · Filipino</p>
