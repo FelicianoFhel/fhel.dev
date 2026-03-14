@@ -1,27 +1,38 @@
 function Experience() {
     const jobs = [
         {
-            role: 'Intelligent System Initiative',
+            role: 'Web App Developer | Information System Analyst II',
             org: 'City College of Cagayan de Oro',
-            period: 'Oct 2022 – Present',
+            period: 'February 2024 – Present',
             points: [
-                'Create UI/UX Interface',
-                'Develop AI to integrate into various systems/applications',
-                'Integrate smart solution on the network',
-                'Maintain system performance and troubleshoot integration issues',
-                'Collaborated with developers and technical teams to identify system requirements and resolve deployment-related issues',
-                'Develop web applications and integrate AI-driven solutions into existing systems',
+                'Maintained 99% system uptime for institutional web applications and services.',
+                'Developed and deployed multiple institutional systems: City College of Cagayan de Oro website, SmartChive document repository, Attendium attendance system, Courseware LMS platform.',
+                'Implemented AI chatbot automation, handling up to 100% of common user inquiries.',
+                'Reduced manual reporting workload by approximately 40% using system and automation.',
+                'Deployed AI chatbot on the website, providing 100% automated responses.',
+                'Provided technical support for system and network issues, including troubleshooting and maintenance, ensuring 99% operational uptime for institutional systems, network connectivity, and printer services.',
             ],
         },
         {
-            role: 'System AI Solution / System Administrator',
-            org: 'Meldcx',
-            period: 'Feb 2023 – Oct 2023',
+            role: 'System Administrator | Systems AI Solution',
+            org: 'Skunkworks PH',
+            period: 'August 2023 – February 2024',
             points: [
-                'Analyze AI solution design and configure the system network',
-                'Create AI solution proposals for clients',
-                'Test AI cameras capabilities',
-                'Monitor network performance',
+                'Managed and maintained system infrastructure, ensuring stable operation, security, and optimal performance of servers and network services.',
+                'Monitored system health and logs, performed troubleshooting and issue resolution to minimize downtime and maintain service availability.',
+                'Conducted system updates, patch management, and maintenance to improve infrastructure reliability and operational efficiency.',
+                'Performed system testing and validation of AI camera solutions, ensuring accurate deployment, functionality, and integration within the network environment.',
+            ],
+        },
+        {
+            role: 'Network Specialist / IT Support',
+            org: 'City College of Cagayan de Oro',
+            period: 'October 2022 – August 2023',
+            points: [
+                'Installed access points with multi-WAN configuration, achieving 95% building connectivity and seamless network performance.',
+                'Designed and implemented the college\'s network infrastructure, deploying 100% of planned configurations across multiple buildings.',
+                'Maintained network operations, proactively resolving issues and ensuring >95% uptime, catering to and resolving 95% of daily tickets.',
+                'Supported faculty and staff with technical guidance, improving IT adoption and operational efficiency.',
             ],
         },
     ];

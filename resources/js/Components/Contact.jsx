@@ -5,9 +5,13 @@ function Contact() {
                 <h2 className="portfolio-section__title">Contact</h2>
                 <p className="portfolio-contact__lead">Let’s work together.</p>
                 <div className="portfolio-contact__items">
-                    <a href="mailto:fhelfeliciano@gmail.com" className="portfolio-contact__item">
+                    <a href="mailto:fhelfelciano@gmail.com" className="portfolio-contact__item">
                         <span className="portfolio-contact__label">Email</span>
-                        <span className="portfolio-contact__value">fhelfeliciano@gmail.com</span>
+                        <span className="portfolio-contact__value">fhelfelciano@gmail.com</span>
+                    </a>
+                    <a href="https://fhel-dev.vercel.app" target="_blank" rel="noopener noreferrer" className="portfolio-contact__item">
+                        <span className="portfolio-contact__label">Portfolio</span>
+                        <span className="portfolio-contact__value">fhel-dev.vercel.app</span>
                     </a>
                     <a href="tel:+639104180743" className="portfolio-contact__item">
                         <span className="portfolio-contact__label">Phone</span>

@@ -1,25 +1,16 @@
 function Skills() {
     const general = [
-        'Full Stack Development',
-        'cPanel & Hosting Environment Management',
-        'Technical Documentation & Customer Communication',
-        'PC Hardware & Software Troubleshooting',
-        'Network Configuration & Installation',
+        'Customer Support / IT Support',
+        'DNS Management',
+        'Web App Development',
+        'AI Integration',
     ];
     const tech = [
         { label: 'Frameworks', items: ['Laravel'] },
-        { label: 'Libraries', items: ['React', 'jQuery'] },
-        { label: 'CSS / UI', items: ['Bootstrap'] },
-        { label: 'Languages', items: ['PHP', 'JavaScript', 'HTML5', 'CSS3'] },
+        { label: 'Libraries', items: ['React.JS', 'Javascript'] },
+        { label: 'Languages', items: ['PHP'] },
         { label: 'Databases', items: ['MySQL', 'Supabase'] },
-        {
-            label: 'Network Specialist',
-            items: [
-                'Troubleshoot and install network infrastructure',
-                'Network maintenance, multiple WAN setup + AP',
-            ],
-        },
-        { label: 'Tools', items: ['cPanel', 'DNS Zone Editor', 'SSL Installation', 'FTP / File Manager'] },
+        { label: 'Tools', items: ['cPanel', 'Github'] },
     ];
 
     return (

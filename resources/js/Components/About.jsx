@@ -3,13 +3,13 @@ function About() {
         <section id="about" className="portfolio-section">
             <div className="portfolio-container">
                 <div className="portfolio-intro">
-                    <h1 className="portfolio-intro__name">Fhel Jhon Feliciano</h1>
-                    <p className="portfolio-intro__title">Tech Support / Web Developer</p>
+                    <h1 className="portfolio-intro__name">Fhel Jhon V. Feliciano</h1>
+                    <p className="portfolio-intro__title">IT Technical Support | Web Application Developer</p>
                     <p className="portfolio-intro__location">Cagayan de Oro, Philippines</p>
                 </div>
                 <h2 className="portfolio-section__title">About Me</h2>
                 <p className="portfolio-about__text">
-                    Technical Support specialist with hands-on experience in web development, DNS configuration, and hosting environment management. Strong understanding of how websites, domains, and servers interact, allowing for accurate troubleshooting of hosting and email-related issues. Committed to delivering responsive, empathetic, and solution-focused customer support.
+                    Nearly 4 years as a Technical Support Specialist and Web Application Developer. Supporting institutional systems, network infrastructure, and web applications. Skilled in system troubleshooting, DNS management, server deployment, and full-stack web development with Laravel, React, and MySQL. Proven record of maintaining 99% system uptime and delivering scalable digital solutions through AI integration.
                 </p>
             </div>
         </section>
